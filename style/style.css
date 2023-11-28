@@ -132,6 +132,11 @@
     display: none;
 }
 
+.rodape__texto {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    color: #0A3871;
+}
 
 
 @media screen and (max-width: 800px) {

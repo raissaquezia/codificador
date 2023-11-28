@@ -93,7 +93,7 @@ descrip.addEventListener('click', () => {
 
 copiar.addEventListener("click", () => {
 	let texto = textFinal;
-	navigator.clipboard.writeText(texto.value);
+	navigator.clipboard.writeText(texto.innerHTML);
     texto.select();
 	alert("Texto Copiado");
     reset();
